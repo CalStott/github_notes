@@ -1,6 +1,8 @@
 # Git and GitHub notes/cheatsheet
 
 ## Table of Contents
+- [Git and GitHub notes/cheatsheet](#git-and-github-notescheatsheet)
+  - [Table of Contents](#table-of-contents)
   - [Git Basics](#git-basics)
     - [Setting up Git](#setting-up-git)
   - [Git Workflow](#git-workflow)
@@ -186,3 +188,5 @@ Push to Remote
 ```bash
 git push origin branch-name
 ```
+
+added change
