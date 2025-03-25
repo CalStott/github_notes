@@ -188,5 +188,3 @@ Push to Remote
 ```bash
 git push origin branch-name
 ```
-
-added change
