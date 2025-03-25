@@ -54,7 +54,7 @@ __3. Stage changes__
 Add modified files to the staging area.
 
 ```bash
-git add <filename>
+git add file-name
 ```
 
 To add all files:
@@ -130,7 +130,7 @@ git diff
 Remove a file from Git
   
 ```bash
-git rm filename
+git rm file-name
 ```
 
 ## Git Branching
