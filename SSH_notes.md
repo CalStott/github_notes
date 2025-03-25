@@ -1,5 +1,14 @@
 # SSH notes
 
+## Table of Contents
+  - [Generating a new SSH key pair](#generating-a-new-ssh-key-pair)
+  - [Adding an SSH key to your GitHub account](#adding-an-ssh-key-to-your-github-account)
+  - [Storing the local SSH for ease of access to the remote SSH](#storing-the-local-ssh-for-ease-of-access-to-the-remote-ssh)
+  - [Pushing changes to your GitHub using SSH](#pushing-changes-to-your-github-using-ssh)
+  - [Removing your SSH key from your GitHub account](#removing-your-ssh-key-from-your-github-account)
+  - [Deleting your SSH keys locally](#deleting-your-ssh-keys-locally)
+---
+
 ## Generating a new SSH key pair
 1. Navigate to your .ssh folder locally using Git Bash
 2. Generate a new key pair using this command:
@@ -25,11 +34,11 @@ Use the command `ls` to verify the files have been created.
 
 3. Copy the Public key by highlighting it, right-clicking and then clicking copy. __Make sure no white space is highlighted__
 4. Go to your GitHub and click on your profile in the top-right corner.
-5. Click on 'Settings'
-6. Under Access, click on 'SSH and GPG keys'
-7. Under the SSH section, click on 'New SSH key'
+5. Click on '__Settings__'
+6. Under Access, click on '__SSH and GPG keys__'
+7. Under the SSH section, click on '__New SSH key__'
 8. Give the key a meaningful title, select the key type (Authentication) and paste the Public key into the input box
-9. Click 'Add SSH key'
+9. Click '__Add SSH key__'
 
 ## Storing the local SSH for ease of access to the remote SSH
 1. Create an ssh-agent using the command:
@@ -72,7 +81,7 @@ Use the command `ls` to verify the files have been created.
 ## Deleting your SSH keys locally
 1. Navigate to your .ssh folder locally using Git Bash
 2. Remove both the private and public SSH keys using these commands:
-```bash
-rm ~/.ssh/key-name.pub
-rm ~/.ssh/key-name
-```
+    ```bash
+    rm ~/.ssh/key-name.pub
+    rm ~/.ssh/key-name
+    ```
